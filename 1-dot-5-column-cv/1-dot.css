@@ -1,0 +1,53 @@
+
+*,
+*::before,
+*::after
+{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#colr1
+{
+    background-color: cyan;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#colr2
+{
+    background-color: red;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+   /* align-content: center;*/
+    line-height:1.5;
+      
+}
+
+#mid{
+    text-align: center;
+}
+
+#im{
+    width:160px;
+    height:150px;
+}
+
+#colr3
+{
+    background-color: pink;
+    width:12vw;
+    height: 100vh;
+    
+}
+
+p .bder{
+        border-top: 50% solid black;
+}
